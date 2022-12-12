@@ -413,6 +413,15 @@
 		
 		<!-- Custom JS -->
 		<script src="assets/js/script.js"></script>
+		<script crossorigin src="https://unpkg.com/@daily-co/daily-js"></script>
+		<script>
+		callWrapper = document.getElementById('content');
+
+		callFrame = await window.DailyIframe.createFrame(callWrapper, {
+			iframeStyle: { height: 'auto', width: '100%' }
+		});
+		callFrame.join({ url: 'https://sehatbase.daily.co/NGB6tVIL8ObIhudPkgCX' })
+		</script>
 		
 	</body>
 
