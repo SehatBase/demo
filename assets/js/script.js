@@ -345,7 +345,7 @@ Version      : 1.0
 					size : 400,
 					thickness: 30,
 					fill: {
-						color: '#1b5a90'
+						color: 'rgba(116, 40, 234, 1)'
 					}
 				});
 			}
